@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Disney+ Clone</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="images/logo.png" class="brand-logo" alt="">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">TV</a></li>
+            <li class="nav-items"><a href="#">movies</a></li>
+            <li class="nav-items"><a href="#">sports</a></li>
+            <li class="nav-items"><a href="#">Premium</a></li>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <button class="sub-btn">subscribe</button>
+            <a href="#" class="login-link">Login</a>
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+        </div>
+    </div>
+
+    <div class="video-card-container">
+        <div class="video-card">
+            <img src="images/disney.PNG" class="video-card-image" alt="">
+            <video src="videos/disney.mp4" muted loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/pixar.PNG" class="video-card-image" alt="">
+            <video src="videos/pixar.mp4" muted loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/marvel.PNG" class="video-card-image" alt="">
+            <video src="videos/marvel.mp4" muted loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/star-wars.PNG" class="video-card-image" alt="">
+            <video src="videos/star-war.mp4" muted loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/geographic.PNG" class="video-card-image" alt="">
+            <video src="videos/geographic.mp4" muted loop class="card-video"></video>
+        </div>
+    </div>
+
+    <h1 class="title">recommended for you</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/hanuman.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Hanu-man</h2>
+                    <h6 class="des">Petty thief gains Hanuman-like powers</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/heartbeat.jpg_large" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Heart Beat</h2>
+                    <h6 class="des">RK Hospital: Hope, Healing, Resilience</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/the marvels.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">The Marvels</h2>
+                    <h6 class="des">Captain Marvel, Monica, Kamala unite</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/monster.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Monster</h2>
+                    <h6 class="des">Bhamini,Anil face catastrophe, secrets</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/bheeshma.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Bheeshma</h2>
+                    <h6 class="des">Michael asserts familial authority firmly</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/anbarivu.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">anbarivu</h2>
+                    <h6 class="des">Arivu swaps with Anbu, chaos ensues</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/12th fail.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">12th Fail</h2>
+                    <h6 class="des">Manoj bravely tackles UPSC exam</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/lover.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Lover</h2>
+                    <h6 class="des">Arun and Divya's relationship tested</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/krk.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">KRK</h2>
+                    <h6 class="des">Rambo's luck shifts; love triangles</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/label.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Label</h2>
+                    <h6 class="des">Judge fights unjust path bravely</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/tupaki.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Tupaki</h2>
+                    <h6 class="des">Army captain foils Mumbai terrorists</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/madras.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Madras</h2>
+                    <h6 class="des">Fiery debate escalates into confrontation</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/jigarthanda.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Jigarthanda</h2>
+                    <h6 class="des">Karthik films life of demented gangster</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/bang-bang.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Bang-Bang</h2>
+                    <h6 class="des">Harleen faces unexpected danger ahead</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <h1 class="title">Popular Movies</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/langlang.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Lang Lang</h2>
+                    <h6 class="des">Lang Lang, Disney music concert</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/Freelancer.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Freelancer</h2>
+                    <h6 class="des">New bride's peril seeks savior</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/salaar.avif" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Salaar</h2>
+                    <h6 class="des">Coup threatens prince's throne; Deva intervenes</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/kaala.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Kaala</h2>
+                    <h6 class="des">Kaala rallies, confronts, endures, prevails</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/maayavan.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Maayavan</h2>
+                    <h6 class="des">Officer with PTSD uncovers truth</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/theeran.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Theeran</h2>
+                    <h6 class="des">Theeran suffers for seeking justice</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/liger.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Liger</h2>
+                    <h6 class="des">Liger pursues MMA dream,encount Taniya</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/cadaver.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Cadaver</h2>
+                    <h6 class="des">Prisoner confesses, more deaths promised</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/netrikann.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Netrikann</h2>
+                    <h6 class="des">Chennai abductions: Durga targeted witness</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/raid.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Raid</h2>
+                    <h6 class="des">Amay raids Lucknow's powerful mansion</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/comali.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Comali</h2>
+                    <h6 class="des">Ravi wakes from 16-year coma</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/good-night.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Good Night</h2>
+                    <h6 class="des">Mohan, Anu tackle snoring havoc</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/prince.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Prince</h2>
+                    <h6 class="des">Anbu loves Jessica, cultural mishaps</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/kick.jpg_large" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Kick</h2>
+                    <h6 class="des">Santhosh's trickery exposed, jeopardized</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <h1 class="title">Best of Superheroes </h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/poster 12.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Dark Phoenix</h2>
+                    <h6 class="des">X-Men save Jean Grey</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 6.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Avengers</h2>
+                    <h6 class="des">Fury forms Avengers, saves world</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/shang-chi.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Shang Chi</h2>
+                    <h6 class="des">Shang-Chi faces past, Ten Rings</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/doctor-strange.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Doctor Strange</h2>
+                    <h6 class="des">SAnt-Man, families explore Quantum</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 2.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Mulan</h2>
+                    <h6 class="des">Mulan disguises, embraces true potential</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/poster 1.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Loki</h2>
+                    <h6 class="des">Loki returns as God of Mischief</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/poster 3.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">winter soldier</h2>
+                    <h6 class="des">Steve, Natasha fight shadowy enemy.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/poster 5.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Thor Ragnarok</h2>
+                    <h6 class="des">Steve, Natasha fight shadowy enemy</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/poster 7.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Salazars Revenge</h2>
+                    <h6 class="des">Sparrow senses Salazar's ill fortune</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/quantumania.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Quantumania</h2>
+                    <h6 class="des">SAnt-Man, families explore Quantum</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/eternals.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Eternals</h2>
+                    <h6 class="des">Immortal Eternals shape Earth's history</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/wandavision.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Wandavision</h2>
+                    <h6 class="des">Unforgettable summer, gelato, pasta, scooters</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 4.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">AvengersEndgame</h2>
+                    <h6 class="des">Avengers unite to undo Thanos</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/secret-invasion.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Secret Invasion</h2>
+                    <h6 class="des">Joe seeks return with infant</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <h1 class="title">Kids Movies </h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/wish.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Wish</h2>
+                    <h6 class="des">Asha's wish answered by Star</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/tangled.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Tangled</h2>
+                    <h6 class="des">Fury forms Avengers, saves world</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/moana.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Moana</h2>
+                    <h6 class="des">Woman navigates with Maui's help</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/frozen.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Frozen</h2>
+                    <h6 class="des">Anna seeks Elsa with friends</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/zootopia.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Zootopia</h2>
+                    <h6 class="des">Judy Hopps defies doubt, succeeds</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/encanto.jpg_large" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Encanto</h2>
+                    <h6 class="des">Mirabel saves family's magic home</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/the-lion-king.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">The Lion King</h2>
+                    <h6 class="des">Prince conquers betrayal, leadership</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/aladdin.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Aladdin</h2>
+                    <h6 class="des">Aladdin, Vizier, magic lamp vie</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <img src="images/jungle-cruise.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Jungle Cruise</h2>
+                    <h6 class="des">Amazon adventure with Frank and Lily</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/simple-samosa.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Simple Samosa</h2>
+                    <h6 class="des">Exaggerates but saves the day</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/rio-2.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Rio 2</h2>
+                    <h6 class="des">City birds adapt to wild</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 10.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Luca</h2>
+                    <h6 class="des">Unforgettable summer, gelato, pasta, scooters</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/elemental.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Elemental</h2>
+                    <h6 class="des">Ember's mettle tested by Wade</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 8.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Soul</h2>
+                    <h6 class="des">Joe seeks return with infant</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <h1 class="title">Horror Stories</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/live-telecast.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Live Telecast</h2>
+                    <h6 class="des">Jenifer exploits haunted house TRP</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/november-story.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">November Story</h2>
+                    <h6 class="des">New bride's peril seeks savior</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/fall.avif" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Fall</h2>
+                    <h6 class="des">Coup threatens prince's throne; Deva intervenes</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/mansion-24.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Mansion 24</h2>
+                    <h6 class="des">Kaala rallies, confronts, endures, prevails</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/pisaasu.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Pisaasu</h2>
+                    <h6 class="des">Officer with PTSD uncovers truth</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/pizza-ii-villa.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Pizza 2</h2>
+                    <h6 class="des">Theeran suffers for seeking justice</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/laxmii.avif" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Laxmii</h2>
+                    <h6 class="des">Liger pursues MMA dream,encount Taniya</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/dd return.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">DD Returns</h2>
+                    <h6 class="des">Prisoner confesses, more deaths promised</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/the past.avif" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">The Past</h2>
+                    <h6 class="des">Chennai abductions: Durga targeted witness</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/13b.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">13B</h2>
+                    <h6 class="des">Amay raids Lucknow's powerful mansion</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/creature.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Creature</h2>
+                    <h6 class="des">Ravi wakes from 16-year coma</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/mohini.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Mohini</h2>
+                    <h6 class="des">Mohan, Anu tackle snoring havoc</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/bhoot police.avif" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Bhoot Police</h2>
+                    <h6 class="des">Anbu loves Jessica, cultural mishaps</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/athidhi.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Athidhi</h2>
+                    <h6 class="des">Santhosh's trickery exposed, jeopardized</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <h1 class="title">Critically Acclaimed Movies</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/titanic.avif" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Titanic</h2>
+                    <h6 class="des">Petty thief gains Hanuman-like powers</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/life of pi.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Life Of Pi</h2>
+                    <h6 class="des">RK Hospital: Hope, Healing, Resilience</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/black panther.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">black panther</h2>
+                    <h6 class="des">Captain Marvel, Monica, Kamala unite</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/rrr.jpg_large" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">RRR</h2>
+                    <h6 class="des">Bhamini,Anil face catastrophe, secrets</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/vikram.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Vikram</h2>
+                    <h6 class="des">Michael asserts familial authority firmly</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/free guy.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Free Guy</h2>
+                    <h6 class="des">Arivu swaps with Anbu, chaos ensues</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/narnia.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Narnia</h2>
+                    <h6 class="des">Manoj bravely tackles UPSC exam</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/kaithi.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Kaithi</h2>
+                    <h6 class="des">Arun and Divya's relationship tested</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/manam.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Manam</h2>
+                    <h6 class="des">Rambo's luck shifts; love triangles</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/vadachennai.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Vadachennai</h2>
+                    <h6 class="des">Judge fights unjust path bravely</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/kaaka Muttai.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Kaaka Muttai</h2>
+                    <h6 class="des">Army captain foils Mumbai terrorists</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/sathuranga vettai.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Sathuranga Vettai</h2>
+                    <h6 class="des">Fiery debate escalates into confrontation</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/nanban.webp" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Nanban</h2>
+                    <h6 class="des">Karthik films life of demented gangster</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/red sparrow.jpeg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Red Sparrow</h2>
+                    <h6 class="des">Harleen faces unexpected danger ahead</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    
+
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Company</h2>
+                <p>About Us</p>
+                <p>Careers</p>
+            </div>
+            <div class="footer-section">
+                <h2>View Website in </h2>
+                <p>&#x2713 English</p>
+
+            </div>
+            <div class="footer-section">
+                <h2>Need Help?</h2>
+                <p> Visit Help Center</p>
+                <p>Share Facebook</p>
+            </div>
+            <div class="footer-section">
+                <h2>Contact With Us</h2>
+                <div class="logo">
+                    <p style="margin-right: 30px; font-size: 22px;color: white;" class="fa fa-facebook fb"></p>
+                    <p style="font-size: 22px; color: white;" class="fa fa-twitter"></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="policy">
+                <div class="footer-bottom">
+                &copy; 2024 star. All rights reserved.
+            </div>
+            <div style="margin-top: 10px;" class="footer-bottom">
+                Terms Of Use Privacy Policy FAQ
+            </div>
+            </div>
+            
+            <div>
+                <img class="playstore" src="./images/playstore.png" alt="">
+                <img class="applestore" src="./images/pngwing.com.png" alt="">
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
